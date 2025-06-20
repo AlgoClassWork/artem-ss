@@ -1,5 +1,15 @@
 body {
     font-family: sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+.shapka {
+    background-color: yellow;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .logo {
@@ -17,9 +27,10 @@ input {
     text-decoration: none;
     color: black;
     font-size: 20px;
-    background-color: yellow;
+    border: 2px solid black;
     border-radius: 10px;
     padding: 10px;
+    margin: 10px;
 }
 
 .login {
@@ -29,4 +40,19 @@ input {
     background-color: black;
     border-radius: 10px;
     padding: 10px;
+}
+
+.banner {
+    background-image: url('https://avatars.mds.yandex.net/i?id=312e0a6cf73fbda7058514e02496b1e7_l-5878137-images-thumbs&n=13');
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+}
+
+h1 {
+    margin: 0px;
+    text-align: center;
+    font-size: 100px;
+    color: white;
+    text-shadow: 10px 10px 10px black;
 }
