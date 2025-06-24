@@ -10,6 +10,10 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    position: sticky;
+    top: 0px;
+    z-index: 1;
 }
 
 .logo {
@@ -33,6 +37,12 @@ input {
     margin: 10px;
 }
 
+.cart:hover {
+    background-color: black;
+    color: white;
+    transition: 0.5s linear;
+}
+
 .login {
     text-decoration: none;
     color: white;
@@ -42,8 +52,15 @@ input {
     padding: 10px;
 }
 
+.login:hover {
+    border: 2px solid black;
+    background-color: yellow;
+    color: black;
+    transition: 0.5s linear;
+}
+
 .banner {
-    background-image: url('https://avatars.mds.yandex.net/i?id=312e0a6cf73fbda7058514e02496b1e7_l-5878137-images-thumbs&n=13');
+    background-image: linear-gradient(yellow, white);
     height: 500px;
     background-size: cover;
     background-position: center;
@@ -55,6 +72,8 @@ h1 {
     font-size: 100px;
     color: white;
     text-shadow: 10px 10px 10px black;
+    position: relative;
+    top: 200px;
 }
 
 .products {
