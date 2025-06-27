@@ -42,3 +42,23 @@ input {
     border-radius: 10px;
     text-decoration: none;
 }
+
+.banner {
+    background: url('banner.png');
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 10px black;
+}
+
+.banner-text h1 {
+    font-size: 60px;
+}
+
+.banner-text p {
+    font-size: 30px;
+}
