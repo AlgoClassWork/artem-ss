@@ -147,3 +147,22 @@ h2 {
     transition: 0.1s linear;
     cursor: pointer;
 }
+
+.footer {
+    background: linear-gradient(to left,rgb(250, 100, 100),rgb(250, 250, 100));
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: rgb(50, 50, 50);
+    display: block;
+    font-weight: bold;
+}
+
+.footer a:hover {
+    color: white;
+    transition: 0.1s linear;
+}
